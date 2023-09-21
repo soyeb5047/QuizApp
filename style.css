@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Dancing+Script&family=Josefin+Sans:ital@1&family=Lato:wght@400;700&display=swap');
+html {
+    font-size: 100%;
+}
+
+@media(max-width:2900px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media(max-width:1416px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media(max-width:988px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+@media(max-width:640px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+.outerDiv{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: hsl(206,92%, 94%);
+}
+
+.innerDiv{
+    width: 40vw;
+    background-color: #fff;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgb(0, 0, 0, 0.4);
+}
+
+.innerDiv h2
+{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 1rem 0 4rem 0;
+}
+
+.innerDiv li
+{
+    font-size: 2rem;
+    margin-top: 1rem;
+    list-style: none;
+}
+
+input{
+    cursor: pointer;
+}
+
+#submit ,.btn
+{
+    padding: 1rem 2rem ;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgb(7, 141, 189);
+    margin: auto;
+    margin-top: 3rem;
+
+}
+
+.btn:hover{
+    background-color: rgb(150, 123, 213);
+}
+
+#submit:hover{
+    background-color: rgb(21, 175, 175);
+}
+
+#showScore{
+    background-color: #28d5aa;
+    padding: 2rem 3rem;
+    margin: 3rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgb(0, 0, 0, 0.4);
+}
+.scoreArea{
+    display: none;
+}
+
+h3{
+    font-size: 1.25rem;
+}
